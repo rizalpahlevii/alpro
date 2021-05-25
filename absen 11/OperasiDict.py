@@ -19,17 +19,10 @@ mhs3 = {
     'UAS': 90
 }
 
-mhs4 = {
-    'ID': 104,
-    'Matkul': 'Algoritma Dan Pemrograman',
-    'UTS': 90,
-    'UAS': 90
-}
 
 print('Mahasiswa 1 :\n ', mhs1)
 print('Mahasiswa 2 :\n ', mhs2)
 print('Mahasiswa 3 :\n ', mhs3)
-print('Mahasiswa 4 :\n ', mhs4, '\n')
 
 # Menambahkan/Mengubah Entry
 mhs1['UTS'] = 90
@@ -41,8 +34,6 @@ print(a)
 b = 'UAS' in mhs2  # Apakah UAS ada di mhs2?
 print(b)
 c = 'Remidi' in mhs3  # Apakah Remidi ada di mhs3?
-print(c)
-c = 'Remidi' in mhs4  # Apakah Remidi ada di mhs4?
 print(c)
 
 print('\n')
