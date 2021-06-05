@@ -11,7 +11,7 @@ def bubbleSort(A):
     while not swap:
         # keadaan true artinya harus di cek dengan loopingan
         swap = True
-        for j in range(1, n):  # loop sebanyak 4 kali
+        for j in range(1, n):  # loop sebanyak 9 kali
             if A[j-1] > A[j]:  # membandingkan 0 > 1
                 swap = False
                 temp = A[j]

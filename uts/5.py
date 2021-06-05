@@ -12,6 +12,9 @@ def insertionSort(n, x):
 
 
 def binarysearch(k, n, A):
+    # k = angka yang di cari
+    # n = jumlah data pada list
+    # A =list itu sendiri
     found = False
     BB = 0
     BA = n-1
