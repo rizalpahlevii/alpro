@@ -31,7 +31,6 @@ class Ternak :
         print(self.hewan[2])
         print(self.hewan[3])
 
-
 obj = Ternak("Peternakan hewan kurban","pati jawa tengah") 
 obj.tampilkanInformasi()
 obj.tampilkanHewanTernak()
